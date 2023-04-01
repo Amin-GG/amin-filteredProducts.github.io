@@ -10,10 +10,80 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./all.css" />
   </head>
-  <body class="min-h-[100vh] max-h-max">
+  <body class="min-h-[100vh] max-h-max bg-slate-800">
+    <section class="gallery w-[80%] mx-auto pb-20">
+      <div class="buttons flex justify-center items-center h-[100px]">
+        <button
+          data-target="all"
+          type="button"
+          class="1 px-4 py-2 bg-green-400 text-blue-500 shadow-md rounded-md hover:scale-x-110 transition-all duration-200 hover:scale-y-110 mr-4">
+          همه
+        </button>
+        <button
+          data-target="nature"
+          type="button"
+          class="2 px-4 py-2 bg-green-400 text-white shadow-md rounded-md hover:scale-x-110 transition-all duration-200 hover:scale-y-110 mr-4">
+          طبیعت
+        </button>
+        <button
+          data-target="programmer"
+          type="button"
+          class="px-4 py-2 bg-green-400 text-white shadow-md rounded-md hover:scale-x-110 transition-all duration-200 hover:scale-y-110 mr-4">
+          برنامه نویسی
+        </button>
+      </div>
+      <div class="images w-full flex flex-wrap justify-between">
+        <img
+          data-id="nature"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./bg1 (1).jpg"
+          alt="img" />
+        <img
+          data-id="nature"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./bg2 (2).jpg"
+          alt="img" />
+        <img
+          data-id="nature"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./bg5 (1).jpg"
+          alt="img" />
+        <img
+          data-id="programmer"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./es6-2-1-400x229 (1).jpg"
+          alt="img" />
+        <img
+          data-id="programmer"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./git-github-400x229.jpg"
+          alt="img" />
+        <img
+          data-id="programmer"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./graphql-course-400x229a.jpg"
+          alt="img" />
+        <img
+          data-id="programmer"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105"
+          src="./low-1-400x229 (1).jpg"
+          alt="img" />
+        <img
+          data-id="programmer"
+          data-all="all"
+          class="w-[360px] mt-4 h-[200px] mx-auto rounded-md hover:scale-x-105 transition-all duration-200 hover:scale-y-105 "
+          src="./LOW-3-400x229 (1)a.jpg"
+          alt="img" />
+      </div>
+    </section>
 
-
-    
     <footer class="bg-green-500 text-white py-4 w-full absolute bottom-0">
       <p dir="rtl" class="mx-auto text-center">
         تهیه شده با
